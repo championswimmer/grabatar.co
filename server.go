@@ -20,5 +20,5 @@ func main() {
 		return c.SendString("To use please open in this format https://grabatar.co/you@email.com where 'you@email.com' is your email id")
 	})
 
-	app.Listen(":3000")
+	app.Listen(":8080")
 }
